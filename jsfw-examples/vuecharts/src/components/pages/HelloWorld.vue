@@ -2,15 +2,22 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
-
+    <LineChart witdh='300' height='500'></LineChart>
+<!--
     <div>---computed---</div>
     <div>{{now}}</div>
+-->
   </div>
 </template>
 
 <script>
+import LineChart from '@/components/parts/LineChart'
+
 export default {
   name: 'HelloWorld',
+  components: {
+    'LineChart': LineChart
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
