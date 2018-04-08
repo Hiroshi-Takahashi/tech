@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
-    <LineChart witdh='300' height='500'></LineChart>
+    <LineChart witdh='300' height='300' fill='#000000'></LineChart>
 <!--
     <div>---computed---</div>
     <div>{{now}}</div>
